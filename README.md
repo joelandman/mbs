@@ -27,6 +27,8 @@ where
 Then you plot the aforementioned magnitudes, adjusting color or other attributes by magnitude.  This
 gives you complex figures, and this code will generate a png file for you named mbs.png, which you can display.
 
+![Mandelbrot Set](https://github.com/joelandman/mbs/blob/master/mbs.png "Mandelbrot Set example")
+
 The goal here is to provide idiomatic, that is, language centric mechanisms of performing this computation.  In most of these calculations, the calculation is performed by 3 loops, one each for iterations, for the real part of z, and the imaginary part of z.  This is idiomatically C-like.  I wanted to see if I could write this in a way that made better use of the underlying power of the language.
 
 Initial efforts are with Julia.
