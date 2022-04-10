@@ -18,11 +18,7 @@ you continue iteration for that z.  When
 
 ![|z| > 2](https://render.githubusercontent.com/render/math?math=%7Cz%7C%20%3E%202)
 
-you return the number of iterations that got you past 2 in magnitude.
-
-where 
-
-![i=sqrt(-1)](https://render.githubusercontent.com/render/math?math=i%3Dsqrt(-1))
+you return the number of iterations that got you past 2 in magnitude.  The variable z is a (complex number)[https://en.wikipedia.org/wiki/Complex_number]
 
 Then you plot the aforementioned magnitudes, adjusting color or other attributes by magnitude.  This
 gives you complex figures, and this code will generate a png file for you named mbs.png, which you can display.
