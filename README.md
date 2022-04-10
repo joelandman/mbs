@@ -18,7 +18,7 @@ you continue iteration for that z.  When
 
 ![|z| > 2](https://render.githubusercontent.com/render/math?math=%7Cz%7C%20%3E%202)
 
-you fix that value of z at 2.0 + 0.0i
+you return the number of iterations that got you past 2 in magnitude.
 
 where 
 
